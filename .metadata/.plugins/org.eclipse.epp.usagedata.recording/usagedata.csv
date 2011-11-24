@@ -1,0 +1,76 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,editor,org.eclipse.dltk.ruby.ui,2.0.0.v20100524-0038,"org.eclipse.dltk.ruby.ui.editor.RubyEditor",1322140985785
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1322140992106
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1322141066325
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1322141071168
+activated,editor,com.aptana.editor.erb,3.0.3.1319152922,"com.aptana.editor.erb.html",1322141083094
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1322141087563
+started,bundle,org.eclipse.mylyn.java.tasks,3.6.0.v20110608-1400,"org.eclipse.mylyn.java.tasks",1322141087969
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1322141097328
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1322141101424
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1322141105950
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1322141128489
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1322141132408
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1322141137556
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1322141139399
+activated,editor,org.eclipse.dltk.ruby.ui,2.0.0.v20100524-0038,"org.eclipse.dltk.ruby.ui.editor.RubyEditor",1322141140965
+activated,editor,org.eclipse.dltk.ruby.ui,2.0.0.v20100524-0038,"org.eclipse.dltk.ruby.ui.editor.RubyEditor",1322141142681
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1322141154039
+activated,editor,org.eclipse.dltk.ruby.ui,2.0.0.v20100524-0038,"org.eclipse.dltk.ruby.ui.editor.RubyEditor",1322141155967
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1322141159734
+opened,editor,org.eclipse.dltk.ruby.ui,2.0.0.v20100524-0038,"org.eclipse.dltk.ruby.ui.editor.RubyEditor",1322141162580
+activated,editor,org.eclipse.dltk.ruby.ui,2.0.0.v20100524-0038,"org.eclipse.dltk.ruby.ui.editor.RubyEditor",1322141162660
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1322141166644
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1322141167614
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1322141219254
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1322141221025
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1322141223795
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1322141227693
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1322141231525
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1322141232082
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1322141232486
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1322141234713
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1322141620271
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1322141628770
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1322141633141
+started,bundle,org.eclipse.dltk.tcl.parser,2.0.0.v20100115-2213,"org.eclipse.dltk.tcl.parser",1322141633647
+started,bundle,org.eclipse.dltk.itcl.core,1.0.0.v20100423-1307,"org.eclipse.dltk.itcl.core",1322141633786
+started,bundle,org.eclipse.dltk.xotcl.core,2.0.0.v20100423-1307,"org.eclipse.dltk.xotcl.core",1322141633828
+opened,editor,org.eclipse.dltk.tcl.ui,2.0.0.v20100524-0038,"org.eclipse.dltk.tcl.ui.editor.TclEditor",1322141634573
+started,bundle,org.eclipse.dltk.tcl.debug.ui,2.0.0.v20100115-2213,"org.eclipse.dltk.tcl.debug.ui",1322141634856
+activated,editor,org.eclipse.dltk.tcl.ui,2.0.0.v20100524-0038,"org.eclipse.dltk.tcl.ui.editor.TclEditor",1322141634911
+executed,command,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.edit.text.openLocalFile",1322141634927
+error,log,,,"  does not exist",1322141643673
+error,log,,,"  does not exist",1322141651767
+error,log,,,"  does not exist",1322141657643
+error,log,,,"  does not exist",1322141660235
+started,bundle,org.eclipse.dltk.validators.core,1.0.0.v20100524-0038,"org.eclipse.dltk.validators.core",1322141720516
+started,bundle,org.eclipse.dltk.tcl.tclchecker,1.0.0.v200909260103,"org.eclipse.dltk.tcl.tclchecker",1322141720712
+executed,command,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals",1322141720716
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.selectAll",1322141724338
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1322141728002
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1322141736856
+started,bundle,org.eclipse.wst.web.ui,1.1.400.v201004141630,"org.eclipse.wst.web.ui",1322141736939
+activated,perspective,org.eclipse.wst.web.ui,1.1.400.v201004141630,"org.eclipse.wst.web.ui.webDevPerspective",1322141737142
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.perspectives.showPerspective",1322141737636
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.perspectives.showPerspective",1322141737636
+error,log,,,"  does not exist",1322141738109
+executed,command,org.eclipse.dltk.ui,2.0.0.v20100603-0936,"org.eclipse.dltk.ui.edit.text.script.format",1322141749651
+error,log,,,"  does not exist",1322141765345
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.selectAll",1322141765806
+started,bundle,org.eclipse.dltk.javascript.launching,2.0.0.v20100222-1537,"org.eclipse.dltk.javascript.launching",1322141773679
+started,bundle,org.eclipse.dltk.python.launching,1.0.0.v20090815,"org.eclipse.dltk.python.launching",1322141773754
+started,bundle,org.eclipse.dltk.ruby.launching,1.0.0.v20100524-0038,"org.eclipse.dltk.ruby.launching",1322141773782
+started,bundle,org.eclipse.dltk.tcl.launching,1.1.0.v20091119-2107,"org.eclipse.dltk.tcl.launching",1322141773827
+executed,command,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals",1322141790778
+error,log,,,"  does not exist",1322141791767
+error,log,,,"  does not exist",1322141794702
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1322141797795
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1322141799125
+activated,view,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.views.ProblemView",1322141818152
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.views.showView",1322141818156
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1322141828413
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1322141840934
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.views.showView",1322141840942
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.views.showView",1322141840942
+error,log,,,"  does not exist",1322141855469

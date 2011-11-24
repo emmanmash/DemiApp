@@ -1,0 +1,26 @@
+#Thu Nov 24 14:42:58 CAT 2011
+ruby.formatter.line.file.module.between=1
+ruby.formatter.line.class.before=1
+ruby.formatter.line.module.before=1
+ruby.formatter.formatter.on.off.enabled=false
+ruby.formatter.formatter.on=@formatter\:on
+ruby.formatter.line.file.class.between=1
+ruby.formatter.indent.if=true
+ruby.formatter.indent.module=true
+ruby.formatter.lines.preserve=1
+ruby.formatter.indent.method=true
+ruby.formatter.line.file.require.after=1
+ruby.formatter.line.file.method.between=1
+ruby.formatter.indent.class=true
+eclipse.preferences.version=1
+ruby.formatter.line.first.before=0
+ruby.formatter.wrap.comments.length=80
+ruby.formatter.formatter.indentation.size=2
+ruby.formatter.formatter.tabulation.size=2
+ruby.formatter.wrap.comments=false
+ruby.formatter.formatter.off=@formatter\:off
+ruby.formatter.indent.when=true
+ruby.formatter.line.method.before=1
+ruby.formatter.formatter.tabulation.char=editor
+ruby.formatter.indent.case=false
+ruby.formatter.indent.blocks=true

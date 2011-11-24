@@ -1,0 +1,905 @@
+!SESSION 2011-11-24 12:48:40.939 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-24 12:49:26.121
+!MESSAGE System property http.proxyHost is not set but should be proxyad.wits.ac.za.
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-24 12:49:26.149
+!MESSAGE System property http.proxyPort is not set but should be 80.
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-24 12:49:26.152
+!MESSAGE System property https.proxyHost is not set but should be proxyad.wits.ac.za.
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-24 12:49:26.156
+!MESSAGE System property https.proxyPort is not set but should be 80.
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-24 12:49:26.170
+!MESSAGE System property https.proxyHost is not set but should be proxyad.wits.ac.za.
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-24 12:49:26.174
+!MESSAGE System property https.proxyPort is not set but should be 80.
+
+!ENTRY org.eclipse.jface 2 0 2011-11-24 12:49:36.660
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-11-24 12:49:36.660
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(com.aptana.ruby.debug.ui.RubyShortcut.debug,Debug Ruby Application,
+		Debug Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-11-24 12:49:36.660
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(com.aptana.ruby.debug.ui.RubyShortcut.run,Run Ruby Application,
+		Run Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-11-24 12:49:36.660
+!MESSAGE A conflict occurred for CTRL+SHIFT+D:
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Display,Display,
+		Display result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(com.aptana.ide.syncing.ui.commands.download,Download...,
+		,
+		Category(com.aptana.ide.syncing.ui.commands.category,File Transfer,File Transfer Commands,true),
+		com.aptana.ide.syncing.ui.handlers.DownloadHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(org.radrails.rails.ui.command.debug.server,Debug Server,
+		,
+		Category(org.radrails.rails.ui.category,Rails,null,true),
+		org.radrails.rails.internal.ui.commands.DebugServerHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-11-24 12:49:36.660
+!MESSAGE A conflict occurred for CTRL+SHIFT+U:
+Binding(CTRL+SHIFT+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.occurrences.in.file.quickMenu,Show Occurrences in File Quick Menu,
+		Shows the Occurrences in File quick menu,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+U,
+	ParameterizedCommand(Command(com.aptana.ide.syncing.ui.commands.upload,Upload...,
+		,
+		Category(com.aptana.ide.syncing.ui.commands.category,File Transfer,File Transfer Commands,true),
+		com.aptana.ide.syncing.ui.handlers.UploadHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-11-24 12:49:36.660
+!MESSAGE A conflict occurred for CTRL+SHIFT+R:
+Binding(CTRL+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.openResource,Open Resource,
+		Open an editor on a particular resource,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.ide.handlers.OpenResourceHandler@1790a38,
+		[Lorg.eclipse.ui.internal.commands.Parameter;@18e093d,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+R,
+	ParameterizedCommand(Command(com.aptana.editor.toggleWordWrapCommand,Word Wrap,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		com.aptana.editor.common.internal.commands.ToggleWordWrapHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface 4 2 2011-11-24 13:00:58.919
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jface".
+!STACK 0
+java.lang.ClassCastException: org.eclipse.equinox.internal.p2.ui.model.InstalledIUElement cannot be cast to org.eclipse.equinox.internal.p2.ui.model.AvailableIUElement
+	at org.eclipse.equinox.internal.p2.ui.dialogs.ResolutionStatusPage.setDetailText(ResolutionStatusPage.java:139)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.ResolutionResultsWizardPage$1$1.selectionChanged(ResolutionResultsWizardPage.java:124)
+	at org.eclipse.jface.viewers.Viewer$2.run(Viewer.java:164)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:162)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2188)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1211)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1241)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:239)
+	at org.eclipse.jface.util.OpenStrategy.access$4(OpenStrategy.java:233)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:403)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.openUninstallWizard(ProvisioningUI.java:264)
+	at org.eclipse.equinox.internal.p2.ui.actions.UninstallAction.performAction(UninstallAction.java:54)
+	at org.eclipse.equinox.internal.p2.ui.actions.ProfileModificationAction$1$1.run(ProfileModificationAction.java:86)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.openInstallWizard(ProvisioningUI.java:209)
+	at org.eclipse.equinox.internal.p2.ui.sdk.InstallNewSoftwareHandler.doExecute(InstallNewSoftwareHandler.java:31)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler.doExecuteAndLoad(PreloadingRepositoryHandler.java:114)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.run(PreloadingRepositoryHandler.java:68)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler.execute(PreloadingRepositoryHandler.java:66)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:293)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.handlers.SlaveHandlerService.executeCommand(SlaveHandlerService.java:241)
+	at org.eclipse.ui.menus.CommandContributionItem.handleWidgetSelection(CommandContributionItem.java:829)
+	at org.eclipse.ui.menus.CommandContributionItem.access$19(CommandContributionItem.java:815)
+	at org.eclipse.ui.menus.CommandContributionItem$5.handleEvent(CommandContributionItem.java:805)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2011-11-24 13:01:04.754
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: HTTP Server 'Gateway Timeout': http://marketplace.obeonetwork.com/updates/od5/compositeContent.xml
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:189)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.getLocalFile(CompositeMetadataRepositoryFactory.java:73)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:98)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:749)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:651)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpClient connection error response code 504.
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:249)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	... 1 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2011-11-24 13:01:04.768
+!MESSAGE HTTP Server 'Gateway Timeout': http://marketplace.obeonetwork.com/updates/od5/compositeContent.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpClient connection error response code 504.
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:249)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 2 org.eclipse.ecf.identity 4 0 2011-11-24 13:01:04.769
+!MESSAGE HttpClient connection error response code 504.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2011-11-24 13:01:53.779
+!MESSAGE HTTP Server 'Gateway Timeout': http://marketplace.obeonetwork.com/updates/od5/compositeContent.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpClient connection error response code 504.
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:249)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2011-11-24 13:01:53.780
+!MESSAGE HttpClient connection error response code 504.
+
+!ENTRY com.aptana.usage 4 0 2011-11-24 14:35:01.929
+!MESSAGE An error occurred while shutting down the database
+!STACK 0
+java.sql.SQLException: Database 'aptanaDB' not found.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleDBNotFound(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection40.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver40.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.usage.AptanaDB.shutdown(AptanaDB.java:172)
+	at com.aptana.usage.UsagePlugin.stop(UsagePlugin.java:74)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:565)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1161)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:595)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:691)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:598)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:390)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+Caused by: java.sql.SQLException: Database 'aptanaDB' not found.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 37 more
+!SESSION 2011-11-24 14:35:18.351 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-24 14:36:11.963
+!MESSAGE System property http.proxyHost is not set but should be proxyad.wits.ac.za.
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-24 14:36:12.402
+!MESSAGE System property http.proxyPort is not set but should be 80.
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-24 14:36:12.406
+!MESSAGE System property https.proxyHost is not set but should be proxyad.wits.ac.za.
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-24 14:36:12.425
+!MESSAGE System property https.proxyPort is not set but should be 80.
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-24 14:36:12.442
+!MESSAGE System property https.proxyHost is not set but should be proxyad.wits.ac.za.
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-24 14:36:12.449
+!MESSAGE System property https.proxyPort is not set but should be 80.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2011-11-24 14:36:54.260
+!MESSAGE Server returned lastModified <= 0 for http://marketplace.obeonetwork.com/updates/od5/compositeContent.jar
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2011-11-24 14:37:33.198
+!MESSAGE Server returned lastModified <= 0 for http://marketplace.obeonetwork.com/updates/od5/marketplace/content.jar
+!SESSION 2011-11-24 14:39:22.379 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-24 14:40:36.060
+!MESSAGE System property http.proxyHost is not set but should be proxyad.wits.ac.za.
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-24 14:40:36.141
+!MESSAGE System property http.proxyPort is not set but should be 80.
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-24 14:40:36.144
+!MESSAGE System property https.proxyHost is not set but should be proxyad.wits.ac.za.
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-24 14:40:36.148
+!MESSAGE System property https.proxyPort is not set but should be 80.
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-24 14:40:36.152
+!MESSAGE System property https.proxyHost is not set but should be proxyad.wits.ac.za.
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-24 14:40:36.262
+!MESSAGE System property https.proxyPort is not set but should be 80.
+
+!ENTRY org.eclipse.jface 2 0 2011-11-24 14:40:41.148
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-11-24 14:40:41.148
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(com.aptana.ruby.debug.ui.RubyShortcut.debug,Debug Ruby Application,
+		Debug Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-11-24 14:40:41.148
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(com.aptana.ruby.debug.ui.RubyShortcut.run,Run Ruby Application,
+		Run Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-11-24 14:40:41.148
+!MESSAGE A conflict occurred for CTRL+SHIFT+D:
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Display,Display,
+		Display result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(com.aptana.ide.syncing.ui.commands.download,Download...,
+		,
+		Category(com.aptana.ide.syncing.ui.commands.category,File Transfer,File Transfer Commands,true),
+		com.aptana.ide.syncing.ui.handlers.DownloadHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(org.radrails.rails.ui.command.debug.server,Debug Server,
+		,
+		Category(org.radrails.rails.ui.category,Rails,null,true),
+		org.radrails.rails.internal.ui.commands.DebugServerHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-11-24 14:40:41.148
+!MESSAGE A conflict occurred for CTRL+SHIFT+U:
+Binding(CTRL+SHIFT+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.occurrences.in.file.quickMenu,Show Occurrences in File Quick Menu,
+		Shows the Occurrences in File quick menu,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+U,
+	ParameterizedCommand(Command(com.aptana.ide.syncing.ui.commands.upload,Upload...,
+		,
+		Category(com.aptana.ide.syncing.ui.commands.category,File Transfer,File Transfer Commands,true),
+		com.aptana.ide.syncing.ui.handlers.UploadHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-11-24 14:40:41.148
+!MESSAGE A conflict occurred for CTRL+SHIFT+R:
+Binding(CTRL+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.openResource,Open Resource,
+		Open an editor on a particular resource,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.ide.handlers.OpenResourceHandler@10774fe,
+		[Lorg.eclipse.ui.internal.commands.Parameter;@91fd5b,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+R,
+	ParameterizedCommand(Command(com.aptana.editor.toggleWordWrapCommand,Word Wrap,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		com.aptana.editor.common.internal.commands.ToggleWordWrapHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.aptana.usage 4 0 2011-11-24 14:43:52.060
+!MESSAGE An error occurred while shutting down the database
+!STACK 0
+java.sql.SQLException: Database 'aptanaDB' not found.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleDBNotFound(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection40.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver40.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.usage.AptanaDB.shutdown(AptanaDB.java:172)
+	at com.aptana.usage.UsagePlugin.stop(UsagePlugin.java:74)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:565)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1161)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:595)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:691)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:598)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:390)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+Caused by: java.sql.SQLException: Database 'aptanaDB' not found.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 37 more
+!SESSION 2011-11-24 14:43:56.726 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-24 14:44:05.704
+!MESSAGE System property http.proxyHost is not set but should be proxyad.wits.ac.za.
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-24 14:44:05.787
+!MESSAGE System property http.proxyPort is not set but should be 80.
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-24 14:44:05.814
+!MESSAGE System property https.proxyHost is not set but should be proxyad.wits.ac.za.
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-24 14:44:05.817
+!MESSAGE System property https.proxyPort is not set but should be 80.
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-24 14:44:05.820
+!MESSAGE System property https.proxyHost is not set but should be proxyad.wits.ac.za.
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-24 14:44:05.823
+!MESSAGE System property https.proxyPort is not set but should be 80.
+
+!ENTRY org.eclipse.jface 2 0 2011-11-24 14:44:09.991
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-11-24 14:44:09.991
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(com.aptana.ruby.debug.ui.RubyShortcut.debug,Debug Ruby Application,
+		Debug Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-11-24 14:44:09.991
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(com.aptana.ruby.debug.ui.RubyShortcut.run,Run Ruby Application,
+		Run Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-11-24 14:44:09.991
+!MESSAGE A conflict occurred for CTRL+SHIFT+D:
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Display,Display,
+		Display result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(com.aptana.ide.syncing.ui.commands.download,Download...,
+		,
+		Category(com.aptana.ide.syncing.ui.commands.category,File Transfer,File Transfer Commands,true),
+		com.aptana.ide.syncing.ui.handlers.DownloadHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(org.radrails.rails.ui.command.debug.server,Debug Server,
+		,
+		Category(org.radrails.rails.ui.category,Rails,null,true),
+		org.radrails.rails.internal.ui.commands.DebugServerHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-11-24 14:44:09.991
+!MESSAGE A conflict occurred for CTRL+SHIFT+U:
+Binding(CTRL+SHIFT+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.occurrences.in.file.quickMenu,Show Occurrences in File Quick Menu,
+		Shows the Occurrences in File quick menu,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+U,
+	ParameterizedCommand(Command(com.aptana.ide.syncing.ui.commands.upload,Upload...,
+		,
+		Category(com.aptana.ide.syncing.ui.commands.category,File Transfer,File Transfer Commands,true),
+		com.aptana.ide.syncing.ui.handlers.UploadHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-11-24 14:44:09.991
+!MESSAGE A conflict occurred for CTRL+SHIFT+R:
+Binding(CTRL+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.openResource,Open Resource,
+		Open an editor on a particular resource,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.ide.handlers.OpenResourceHandler@1f050bd,
+		[Lorg.eclipse.ui.internal.commands.Parameter;@44d044,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+R,
+	ParameterizedCommand(Command(com.aptana.editor.toggleWordWrapCommand,Word Wrap,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		com.aptana.editor.common.internal.commands.ToggleWordWrapHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.dltk.tcl.ui 4 0 2011-11-24 15:34:03.669
+!MESSAGE   does not exist
+!STACK 1
+org.eclipse.dltk.core.ModelException:   does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:258)
+	at org.eclipse.dltk.internal.core.ModelManager.getPerProjectInfoCheckExistence(ModelManager.java:805)
+	at org.eclipse.dltk.internal.core.ScriptProject.getPerProjectInfo(ScriptProject.java:708)
+	at org.eclipse.dltk.internal.core.ScriptProject.getRawBuildpath(ScriptProject.java:1088)
+	at org.eclipse.dltk.internal.core.ScriptProject.getRawBuildpath(ScriptProject.java:1074)
+	at org.eclipse.dltk.launching.ScriptRuntime.getInterpreterInstall(ScriptRuntime.java:406)
+	at org.eclipse.dltk.tcl.internal.ui.documentation.TclManPagesDocumentationProvider.selectSource(TclManPagesDocumentationProvider.java:91)
+	at org.eclipse.dltk.tcl.internal.ui.documentation.TclManPagesDocumentationProvider.describeKeyword(TclManPagesDocumentationProvider.java:114)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess$3.getInfo(ScriptDocumentationAccess.java:201)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess.merge(ScriptDocumentationAccess.java:106)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess.getKeywordDocumentation(ScriptDocumentationAccess.java:196)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:215)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:152)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:118)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:76)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2011-11-24 15:34:03.670
+!MESSAGE   does not exist
+
+!ENTRY org.eclipse.dltk.tcl.ui 4 0 2011-11-24 15:34:11.763
+!MESSAGE   does not exist
+!STACK 1
+org.eclipse.dltk.core.ModelException:   does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:258)
+	at org.eclipse.dltk.internal.core.ModelManager.getPerProjectInfoCheckExistence(ModelManager.java:805)
+	at org.eclipse.dltk.internal.core.ScriptProject.getPerProjectInfo(ScriptProject.java:708)
+	at org.eclipse.dltk.internal.core.ScriptProject.getRawBuildpath(ScriptProject.java:1088)
+	at org.eclipse.dltk.internal.core.ScriptProject.getRawBuildpath(ScriptProject.java:1074)
+	at org.eclipse.dltk.launching.ScriptRuntime.getInterpreterInstall(ScriptRuntime.java:406)
+	at org.eclipse.dltk.tcl.internal.ui.documentation.TclManPagesDocumentationProvider.selectSource(TclManPagesDocumentationProvider.java:91)
+	at org.eclipse.dltk.tcl.internal.ui.documentation.TclManPagesDocumentationProvider.describeKeyword(TclManPagesDocumentationProvider.java:114)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess$3.getInfo(ScriptDocumentationAccess.java:201)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess.merge(ScriptDocumentationAccess.java:106)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess.getKeywordDocumentation(ScriptDocumentationAccess.java:196)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:215)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:152)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:118)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:76)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2011-11-24 15:34:11.764
+!MESSAGE   does not exist
+
+!ENTRY org.eclipse.dltk.tcl.ui 4 0 2011-11-24 15:34:17.628
+!MESSAGE   does not exist
+!STACK 1
+org.eclipse.dltk.core.ModelException:   does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:258)
+	at org.eclipse.dltk.internal.core.ModelManager.getPerProjectInfoCheckExistence(ModelManager.java:805)
+	at org.eclipse.dltk.internal.core.ScriptProject.getPerProjectInfo(ScriptProject.java:708)
+	at org.eclipse.dltk.internal.core.ScriptProject.getRawBuildpath(ScriptProject.java:1088)
+	at org.eclipse.dltk.internal.core.ScriptProject.getRawBuildpath(ScriptProject.java:1074)
+	at org.eclipse.dltk.launching.ScriptRuntime.getInterpreterInstall(ScriptRuntime.java:406)
+	at org.eclipse.dltk.tcl.internal.ui.documentation.TclManPagesDocumentationProvider.selectSource(TclManPagesDocumentationProvider.java:91)
+	at org.eclipse.dltk.tcl.internal.ui.documentation.TclManPagesDocumentationProvider.describeKeyword(TclManPagesDocumentationProvider.java:114)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess$3.getInfo(ScriptDocumentationAccess.java:201)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess.merge(ScriptDocumentationAccess.java:106)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess.getKeywordDocumentation(ScriptDocumentationAccess.java:196)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:215)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:152)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:118)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:76)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2011-11-24 15:34:17.628
+!MESSAGE   does not exist
+
+!ENTRY org.eclipse.dltk.tcl.ui 4 0 2011-11-24 15:34:20.231
+!MESSAGE   does not exist
+!STACK 1
+org.eclipse.dltk.core.ModelException:   does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:258)
+	at org.eclipse.dltk.internal.core.ModelManager.getPerProjectInfoCheckExistence(ModelManager.java:805)
+	at org.eclipse.dltk.internal.core.ScriptProject.getPerProjectInfo(ScriptProject.java:708)
+	at org.eclipse.dltk.internal.core.ScriptProject.getRawBuildpath(ScriptProject.java:1088)
+	at org.eclipse.dltk.internal.core.ScriptProject.getRawBuildpath(ScriptProject.java:1074)
+	at org.eclipse.dltk.launching.ScriptRuntime.getInterpreterInstall(ScriptRuntime.java:406)
+	at org.eclipse.dltk.tcl.internal.ui.documentation.TclManPagesDocumentationProvider.selectSource(TclManPagesDocumentationProvider.java:91)
+	at org.eclipse.dltk.tcl.internal.ui.documentation.TclManPagesDocumentationProvider.describeKeyword(TclManPagesDocumentationProvider.java:114)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess$3.getInfo(ScriptDocumentationAccess.java:201)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess.merge(ScriptDocumentationAccess.java:106)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess.getKeywordDocumentation(ScriptDocumentationAccess.java:196)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:215)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:152)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:118)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:76)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2011-11-24 15:34:20.232
+!MESSAGE   does not exist
+
+!ENTRY org.eclipse.dltk.tcl.ui 4 0 2011-11-24 15:35:38.102
+!MESSAGE   does not exist
+!STACK 1
+org.eclipse.dltk.core.ModelException:   does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:258)
+	at org.eclipse.dltk.internal.core.ModelManager.getPerProjectInfoCheckExistence(ModelManager.java:805)
+	at org.eclipse.dltk.internal.core.ScriptProject.getPerProjectInfo(ScriptProject.java:708)
+	at org.eclipse.dltk.internal.core.ScriptProject.getRawBuildpath(ScriptProject.java:1088)
+	at org.eclipse.dltk.internal.core.ScriptProject.getRawBuildpath(ScriptProject.java:1074)
+	at org.eclipse.dltk.launching.ScriptRuntime.getInterpreterInstall(ScriptRuntime.java:406)
+	at org.eclipse.dltk.tcl.internal.ui.documentation.TclManPagesDocumentationProvider.selectSource(TclManPagesDocumentationProvider.java:91)
+	at org.eclipse.dltk.tcl.internal.ui.documentation.TclManPagesDocumentationProvider.describeKeyword(TclManPagesDocumentationProvider.java:114)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess$3.getInfo(ScriptDocumentationAccess.java:201)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess.merge(ScriptDocumentationAccess.java:106)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess.getKeywordDocumentation(ScriptDocumentationAccess.java:196)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:215)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:152)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:118)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:76)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2011-11-24 15:35:38.102
+!MESSAGE   does not exist
+
+!ENTRY org.eclipse.dltk.tcl.ui 4 0 2011-11-24 15:36:05.312
+!MESSAGE   does not exist
+!STACK 1
+org.eclipse.dltk.core.ModelException:   does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:258)
+	at org.eclipse.dltk.internal.core.ModelManager.getPerProjectInfoCheckExistence(ModelManager.java:805)
+	at org.eclipse.dltk.internal.core.ScriptProject.getPerProjectInfo(ScriptProject.java:708)
+	at org.eclipse.dltk.internal.core.ScriptProject.getRawBuildpath(ScriptProject.java:1088)
+	at org.eclipse.dltk.internal.core.ScriptProject.getRawBuildpath(ScriptProject.java:1074)
+	at org.eclipse.dltk.launching.ScriptRuntime.getInterpreterInstall(ScriptRuntime.java:406)
+	at org.eclipse.dltk.tcl.internal.ui.documentation.TclManPagesDocumentationProvider.selectSource(TclManPagesDocumentationProvider.java:91)
+	at org.eclipse.dltk.tcl.internal.ui.documentation.TclManPagesDocumentationProvider.describeKeyword(TclManPagesDocumentationProvider.java:114)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess$3.getInfo(ScriptDocumentationAccess.java:201)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess.merge(ScriptDocumentationAccess.java:106)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess.getKeywordDocumentation(ScriptDocumentationAccess.java:196)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:215)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:152)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:118)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:76)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2011-11-24 15:36:05.312
+!MESSAGE   does not exist
+
+!ENTRY org.eclipse.dltk.tcl.ui 4 0 2011-11-24 15:36:31.764
+!MESSAGE   does not exist
+!STACK 1
+org.eclipse.dltk.core.ModelException:   does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:258)
+	at org.eclipse.dltk.internal.core.ModelManager.getPerProjectInfoCheckExistence(ModelManager.java:805)
+	at org.eclipse.dltk.internal.core.ScriptProject.getPerProjectInfo(ScriptProject.java:708)
+	at org.eclipse.dltk.internal.core.ScriptProject.getRawBuildpath(ScriptProject.java:1088)
+	at org.eclipse.dltk.internal.core.ScriptProject.getRawBuildpath(ScriptProject.java:1074)
+	at org.eclipse.dltk.launching.ScriptRuntime.getInterpreterInstall(ScriptRuntime.java:406)
+	at org.eclipse.dltk.tcl.internal.ui.documentation.TclManPagesDocumentationProvider.selectSource(TclManPagesDocumentationProvider.java:91)
+	at org.eclipse.dltk.tcl.internal.ui.documentation.TclManPagesDocumentationProvider.describeKeyword(TclManPagesDocumentationProvider.java:114)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess$3.getInfo(ScriptDocumentationAccess.java:201)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess.merge(ScriptDocumentationAccess.java:106)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess.getKeywordDocumentation(ScriptDocumentationAccess.java:196)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:215)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:152)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:118)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:76)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2011-11-24 15:36:31.764
+!MESSAGE   does not exist
+
+!ENTRY org.eclipse.dltk.tcl.ui 4 0 2011-11-24 15:36:34.689
+!MESSAGE   does not exist
+!STACK 1
+org.eclipse.dltk.core.ModelException:   does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:258)
+	at org.eclipse.dltk.internal.core.ModelManager.getPerProjectInfoCheckExistence(ModelManager.java:805)
+	at org.eclipse.dltk.internal.core.ScriptProject.getPerProjectInfo(ScriptProject.java:708)
+	at org.eclipse.dltk.internal.core.ScriptProject.getRawBuildpath(ScriptProject.java:1088)
+	at org.eclipse.dltk.internal.core.ScriptProject.getRawBuildpath(ScriptProject.java:1074)
+	at org.eclipse.dltk.launching.ScriptRuntime.getInterpreterInstall(ScriptRuntime.java:406)
+	at org.eclipse.dltk.tcl.internal.ui.documentation.TclManPagesDocumentationProvider.selectSource(TclManPagesDocumentationProvider.java:91)
+	at org.eclipse.dltk.tcl.internal.ui.documentation.TclManPagesDocumentationProvider.describeKeyword(TclManPagesDocumentationProvider.java:114)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess$3.getInfo(ScriptDocumentationAccess.java:201)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess.merge(ScriptDocumentationAccess.java:106)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess.getKeywordDocumentation(ScriptDocumentationAccess.java:196)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:215)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:152)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:118)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:76)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2011-11-24 15:36:34.689
+!MESSAGE   does not exist
+
+!ENTRY org.eclipse.dltk.tcl.ui 4 0 2011-11-24 15:37:35.460
+!MESSAGE   does not exist
+!STACK 1
+org.eclipse.dltk.core.ModelException:   does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:258)
+	at org.eclipse.dltk.internal.core.ModelManager.getPerProjectInfoCheckExistence(ModelManager.java:805)
+	at org.eclipse.dltk.internal.core.ScriptProject.getPerProjectInfo(ScriptProject.java:708)
+	at org.eclipse.dltk.internal.core.ScriptProject.getRawBuildpath(ScriptProject.java:1088)
+	at org.eclipse.dltk.internal.core.ScriptProject.getRawBuildpath(ScriptProject.java:1074)
+	at org.eclipse.dltk.launching.ScriptRuntime.getInterpreterInstall(ScriptRuntime.java:406)
+	at org.eclipse.dltk.tcl.internal.ui.documentation.TclManPagesDocumentationProvider.selectSource(TclManPagesDocumentationProvider.java:91)
+	at org.eclipse.dltk.tcl.internal.ui.documentation.TclManPagesDocumentationProvider.describeKeyword(TclManPagesDocumentationProvider.java:114)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess$3.getInfo(ScriptDocumentationAccess.java:201)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess.merge(ScriptDocumentationAccess.java:106)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess.getKeywordDocumentation(ScriptDocumentationAccess.java:196)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:215)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:152)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:118)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:76)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2011-11-24 15:37:35.460
+!MESSAGE   does not exist
+
+!ENTRY org.eclipse.dltk.tcl.ui 4 0 2011-11-24 15:38:14.792
+!MESSAGE   does not exist
+!STACK 1
+org.eclipse.dltk.core.ModelException:   does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:258)
+	at org.eclipse.dltk.internal.core.ModelManager.getPerProjectInfoCheckExistence(ModelManager.java:805)
+	at org.eclipse.dltk.internal.core.ScriptProject.getPerProjectInfo(ScriptProject.java:708)
+	at org.eclipse.dltk.internal.core.ScriptProject.getRawBuildpath(ScriptProject.java:1088)
+	at org.eclipse.dltk.internal.core.ScriptProject.getRawBuildpath(ScriptProject.java:1074)
+	at org.eclipse.dltk.launching.ScriptRuntime.getInterpreterInstall(ScriptRuntime.java:406)
+	at org.eclipse.dltk.tcl.internal.ui.documentation.TclManPagesDocumentationProvider.selectSource(TclManPagesDocumentationProvider.java:91)
+	at org.eclipse.dltk.tcl.internal.ui.documentation.TclManPagesDocumentationProvider.describeKeyword(TclManPagesDocumentationProvider.java:114)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess$3.getInfo(ScriptDocumentationAccess.java:201)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess.merge(ScriptDocumentationAccess.java:106)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess.getKeywordDocumentation(ScriptDocumentationAccess.java:196)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:215)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:152)
+	at org.eclipse.dltk.internal.ui.text.hover.ScriptTypeHover.getHoverInfo(ScriptTypeHover.java:39)
+	at org.eclipse.dltk.internal.ui.text.hover.ScriptInformationProvider.getInformation(ScriptInformationProvider.java:117)
+	at org.eclipse.jface.text.information.InformationPresenter.computeInformation(InformationPresenter.java:347)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1131)
+	at org.eclipse.jface.text.AbstractInformationControlManager.showInformation(AbstractInformationControlManager.java:1121)
+	at org.eclipse.jface.text.source.SourceViewer.doOperation(SourceViewer.java:941)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.doOperation(ProjectionViewer.java:1534)
+	at org.eclipse.dltk.internal.ui.editor.ScriptSourceViewer.doOperation(ScriptSourceViewer.java:148)
+	at org.eclipse.dltk.internal.ui.editor.ScriptEditor$AdaptedSourceViewer.doOperation(ScriptEditor.java:464)
+	at org.eclipse.ui.texteditor.TextOperationAction$1.run(TextOperationAction.java:128)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.texteditor.TextOperationAction.run(TextOperationAction.java:126)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$InformationDispatchAction.run(AbstractTextEditor.java:1904)
+	at org.eclipse.ui.texteditor.RetargetTextEditorAction.run(RetargetTextEditorAction.java:237)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2011-11-24 15:38:14.793
+!MESSAGE   does not exist
+
+!ENTRY org.eclipse.dltk.tcl.ui 4 0 2011-11-24 15:38:50.707
+!MESSAGE   does not exist
+!STACK 1
+org.eclipse.dltk.core.ModelException:   does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:258)
+	at org.eclipse.dltk.internal.core.ModelManager.getPerProjectInfoCheckExistence(ModelManager.java:805)
+	at org.eclipse.dltk.internal.core.ScriptProject.getPerProjectInfo(ScriptProject.java:708)
+	at org.eclipse.dltk.internal.core.ScriptProject.getRawBuildpath(ScriptProject.java:1088)
+	at org.eclipse.dltk.internal.core.ScriptProject.getRawBuildpath(ScriptProject.java:1074)
+	at org.eclipse.dltk.launching.ScriptRuntime.getInterpreterInstall(ScriptRuntime.java:406)
+	at org.eclipse.dltk.tcl.internal.ui.documentation.TclManPagesDocumentationProvider.selectSource(TclManPagesDocumentationProvider.java:91)
+	at org.eclipse.dltk.tcl.internal.ui.documentation.TclManPagesDocumentationProvider.describeKeyword(TclManPagesDocumentationProvider.java:114)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess$3.getInfo(ScriptDocumentationAccess.java:201)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess.merge(ScriptDocumentationAccess.java:106)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess.getKeywordDocumentation(ScriptDocumentationAccess.java:196)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:215)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:152)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:118)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:76)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2011-11-24 15:38:50.707
+!MESSAGE   does not exist

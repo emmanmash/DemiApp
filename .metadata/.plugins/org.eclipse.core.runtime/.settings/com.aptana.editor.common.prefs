@@ -1,0 +1,13 @@
+#Thu Nov 24 14:48:19 CAT 2011
+com.aptana.editor.common.enabledSpellingScopes=comment.block.documentation,comment.block,comment.line
+AbstractTextEditor.Color.Background.SystemDefault=false
+AbstractTextEditor.Color.Foreground.SystemDefault=false
+AbstractTextEditor.Color.Foreground=248,248,248
+currentLineColor=27,27,27
+com.aptana.editor.common.taskTagNames=FIXME,XXX,TODO
+AbstractTextEditor.Color.SelectionForeground.SystemDefault=false
+com.aptana.editor.common.characterPairColor=94,94,94
+com.aptana.editor.common.taskTagPriorities=High,Normal,Normal
+AbstractTextEditor.Color.Background=20,20,20
+eclipse.preferences.version=1
+AbstractTextEditor.Color.SelectionForeground=60,64,67
