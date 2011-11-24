@@ -10,11 +10,11 @@ List of Available Demonstrators
 		<th>ICAM Number</th>
 		</tr>
 		
-		<%for member in @members %>
+		<%for st_student in @members %>
 		<tr>
-			<td><%= member.First_name %></td>
-			<td><%= member.Last_Name %></td>
-			<td><%= member.ICAM_Number %></td>
+			<td><%= st_student.First_name %></td>
+			<td><%= st_student.Last_Name %></td>
+			<td><%= st_student.ICAM_Number %></td>
 			
 		</tr>
 </table>

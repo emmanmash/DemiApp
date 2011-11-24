@@ -1,5 +1,5 @@
 class MembersController < ApplicationController
   def index
-    @members = Member.find(:all)
+    @st_student = Member.find(:all)
   end
 end

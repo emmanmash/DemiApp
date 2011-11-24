@@ -169,3 +169,56 @@ Mysql::Error (#28000Access denied for user 'root'@'localhost' (using password: Y
 
 
 Rendering C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing MembersController#index (for 127.0.0.1 at 2011-11-24 15:24:03) [GET]
+  Session ID: 1f515f20dd04f8a581bb86dec9ea62a2
+  Parameters: {"action"=>"index", "controller"=>"members"}
+
+
+Mysql::Error (#28000Access denied for user 'root'@'localhost' (using password: YES)):
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activerecord-1.14.2/lib/active_record/vendor/mysql.rb:508:in `read'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activerecord-1.14.2/lib/active_record/vendor/mysql.rb:150:in `real_connect'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activerecord-1.14.2/lib/active_record/connection_adapters/mysql_adapter.rb:331:in `connect'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activerecord-1.14.2/lib/active_record/connection_adapters/mysql_adapter.rb:88:in `initialize'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activerecord-1.14.2/lib/active_record/connection_adapters/mysql_adapter.rb:37:in `mysql_connection'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activerecord-1.14.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:251:in `connection_without_query_cache='
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activerecord-1.14.2/lib/active_record/query_cache.rb:54:in `connection='
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activerecord-1.14.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:220:in `retrieve_connection'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activerecord-1.14.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:78:in `connection'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activerecord-1.14.2/lib/active_record/base.rb:1046:in `add_limit!'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activerecord-1.14.2/lib/active_record/base.rb:1017:in `construct_finder_sql'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activerecord-1.14.2/lib/active_record/base.rb:924:in `find_every'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activerecord-1.14.2/lib/active_record/base.rb:381:in `find'
+    /app/controllers/members_controller.rb:3:in `index'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/base.rb:910:in `perform_action_without_filters'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/filters.rb:368:in `perform_action_without_benchmark'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/benchmarking.rb:69:in `perform_action_without_rescue'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/benchmarking.rb:69:in `perform_action_without_rescue'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/rescue.rb:82:in `perform_action'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/base.rb:381:in `process_without_filters'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/filters.rb:377:in `process_without_session_management_support'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/session_management.rb:117:in `process'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/dispatcher.rb:38:in `dispatch'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/webrick_server.rb:115:in `handle_dispatch'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/webrick_server.rb:81:in `service'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/webrick_server.rb:67:in `dispatch'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/commands/servers/webrick.rb:59
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:21:in `require'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:147:in `require'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/commands/server.rb:30
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:21:in `require'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:147:in `require'
+    script/server:3
+
+
+Rendering C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
