@@ -5,4 +5,10 @@ class StSupervisors < ActiveRecord::Base
 	validates_numericality_of :age
 	validates_format_of :email, :with => /\A([^@\s]+)@((?:[-a-
 	z0-9]+\.)+[a-z]{2,})\Z/i
+	
+def self.login(name,password)
+find(:first,:conditions => ["user_name = ? and password =
+?",name, password])
+end
+
 end

@@ -1,0 +1,17 @@
+<%= form_tag :action=> 'authenticate'%>
+	<table >
+		<tr align="center" class="tablebody">
+			<td>User name:</td>
+				<td><%= text_field("user", "user_name",:size=>"15" ) %></td>
+					</tr>
+						<tr align="center" class="tablebody">
+								<td>Password:</td>
+									<td><%= password_field("user",
+										"password",:size=>"17" ) %></td>
+										</tr>
+										<tr align="center" class="tablebody">
+<td></td>
+<td><input type="submit" value=" LOGIN " /></td>
+</tr>
+</table>
+

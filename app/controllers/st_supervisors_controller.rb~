@@ -3,27 +3,14 @@ class StSupervisorsController < ApplicationController
   end
 
  def authenticate
- if request.get?
-render :action=> 'index'
-else
-	@st_supervisors  = st_supervisors .new(params[:st_supervisors]s)
-valid_user =  @st_supervisors .check_login
-if valid_user
-	session[:user_id]=valid_user.id
-flash[:note]="Welcome "+valid_user.user_name
-redirect_to(:controller=>'tale',:action => 'list')
+  @st_supervisors = User.new(params[:user])
+valid_user = @user.check_login
+if logged_in_user
+flash[:note]="Welcome "+logged_in_user.name
+redirect_to(:controller=>'tale',:action => "list")
 else
 flash[:notice] = "Invalid User/Password"
-redirect_to :action=> 'index'
-end
-end
-end
-
-def check_authentic_user
-unless session[:user_id]
-flash[:notice] = "Please log in"
-redirect_to(:controller => "user", :action =>
-"index")
+redirect_to :action=> "index"
 end
 end
   
