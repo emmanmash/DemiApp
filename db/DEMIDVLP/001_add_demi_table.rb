@@ -1,5 +1,6 @@
 class AddDemiTable < ActiveRecord::Migration
   def self.up
+    
     create_table :ST_STUDENT do |table|
       table.column :STUDENT_NUMBER, :VARCHAR2
       table.column :FIRST_NAME, :VARCHAR2

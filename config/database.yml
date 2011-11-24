@@ -12,19 +12,19 @@
 #   http://dev.mysql.com/doc/refman/5.0/en/old-client.html
 development:
   adapter: mysql
-  database: demiApp_development
+  database: demidvlp
   username: root
   password: [password]
   host: localhost
 test:
   adapter: mysql
-  database: demiApp_test
+  database: demiuat
   username: root
   password: [password]
   host: localhost
 production:
   adapter: mysql
-  database: demiApp_production
+  database: demiprd
   username: root
   password: [password]
   host: localhost
