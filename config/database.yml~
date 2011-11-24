@@ -10,10 +10,21 @@
 #
 # And be sure to use new-style password hashing:
 #   http://dev.mysql.com/doc/refman/5.0/en/old-client.html
-
+development:
+  adapter: mysql
+  database: demidvlp
+  username: root
+  password: [password]
+  host: localhost
+test:
+  adapter: mysql
+  database: demiuat
+  username: root
+  password: [password]
+  host: localhost
 production:
   adapter: mysql
-  database: demiAppdb
+  database: demiprd
   username: root
-  password: 
+  password: [password]
   host: localhost

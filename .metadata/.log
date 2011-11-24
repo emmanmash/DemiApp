@@ -903,3 +903,24 @@ org.eclipse.dltk.core.ModelException:   does not exist
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
 !SUBENTRY 1 org.eclipse.dltk.core 4 969 2011-11-24 15:38:50.707
 !MESSAGE   does not exist
+
+!ENTRY org.eclipse.jface 2 0 2011-11-24 16:05:22.343
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-11-24 16:05:22.366
+!MESSAGE A conflict occurred for ALT+V:
+Binding(ALT+V,
+	ParameterizedCommand(Command(org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaeditor.pastecolumn,Paste,
+		,
+		Category(org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaedtor.10x,ASA 9.x table schema editor,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+V,
+	ParameterizedCommand(Command(com.aptana.org.eclipse.tm.terminal.command1,Terminal view insert,
+		,
+		Category(com.aptana.org.eclipse.tm.terminal.category1,Terminal view commands,%terminal.view.insertion.description,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.aptana.org.eclipse.tm.terminal.TerminalContext,,,system)

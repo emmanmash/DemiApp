@@ -14,17 +14,17 @@ development:
   adapter: mysql
   database: demidvlp
   username: root
-  password: [password]
+  password: 
   host: localhost
 test:
   adapter: mysql
   database: demiuat
   username: root
-  password: [password]
+  password: 
   host: localhost
 production:
   adapter: mysql
   database: demiprd
   username: root
-  password: [password]
+  password: 
   host: localhost
