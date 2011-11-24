@@ -3,6 +3,22 @@
   <b><%= column.human_name %>:</b> <%=h @role.send(column.name) %>
 </p>
 <% end %>
+\<table>
+<tr>
+	<th>UserName</th>
+	<th>FirstName</th>
+	<th>LastName</th>
+	<th>email id</th>
+	</tr>
+	<% for user in @users %>
+	<tr>
+	<td><%=user.user_name%></td>
+	<td><%=user.first_name%></td>
+	<td><%=user.last_name%></td>
+	<td><%=user.email%></td>
+	</tr>
+<%end%>
+</table>
 
 <%= link_to 'Edit', :action => 'edit', :id => @role %> |
 <%= link_to 'Back', :action => 'list' %>

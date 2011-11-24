@@ -14,7 +14,6 @@ class RoleController < ApplicationController
 
   def show
     @role = Role.find(params[:id])
-    @users= @role.users
   end
 
   def new

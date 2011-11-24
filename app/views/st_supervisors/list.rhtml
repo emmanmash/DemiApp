@@ -1,0 +1,27 @@
+<h1>Listing st_supervisors</h1>
+
+<table>
+  <tr>
+  <% for column in StSupervisors.content_columns %>
+    <th><%= column.human_name %></th>
+  <% end %>
+  </tr>
+  
+<% for st_supervisors in @st_supervisors %>
+  <tr>
+  <% for column in StSupervisors.content_columns %>
+    <td><%=h st_supervisors.send(column.name) %></td>
+  <% end %>
+    <td><%= link_to 'Show', :action => 'show', :id => st_supervisors %></td>
+    <td><%= link_to 'Edit', :action => 'edit', :id => st_supervisors %></td>
+    <td><%= link_to 'Destroy', { :action => 'destroy', :id => st_supervisors }, :confirm => 'Are you sure?', :post => true %></td>
+  </tr>
+<% end %>
+</table>
+
+<%= link_to 'Previous page', { :page => @st_supervisors_pages.current.previous } if @st_supervisors_pages.current.previous %>
+<%= link_to 'Next page', { :page => @st_supervisors_pages.current.next } if @st_supervisors_pages.current.next %> 
+
+<br />
+
+<%= link_to 'New st_supervisors', :action => 'new' %>

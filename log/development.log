@@ -223,3 +223,5 @@ Mysql::Error (#28000Access denied for user 'root'@'localhost' (using password: Y
 
 Rendering C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
   [4;36;1mRole Columns (0.001000)[0m   [0;1mSHOW FIELDS FROM roles[0m
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mMysql::Error: #42S02Table 'demidvlp.users' doesn't exist: SHOW FIELDS FROM users[0m
+  [4;36;1mStSupervisors Columns (0.001000)[0m   [0;1mSHOW FIELDS FROM st_supervisors[0m

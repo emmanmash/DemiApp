@@ -1,0 +1,2 @@
+class StSupervisors < ActiveRecord::Base
+end

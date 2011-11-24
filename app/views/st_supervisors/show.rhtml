@@ -1,0 +1,8 @@
+<% for column in StSupervisors.content_columns %>
+<p>
+  <b><%= column.human_name %>:</b> <%=h @st_supervisors.send(column.name) %>
+</p>
+<% end %>
+
+<%= link_to 'Edit', :action => 'edit', :id => @st_supervisors %> |
+<%= link_to 'Back', :action => 'list' %>
