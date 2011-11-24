@@ -4,17 +4,19 @@
 <window height="760" maximized="true" width="1024" x="1469" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
-<itemSize x="160"/>
+<itemSize x="483"/>
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.dltk.tcl.ui.debug.consoleActionSet" itemType="typeToolBarContribution" x="53" y="22"/>
 <coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="91" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="84" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.wst.web.ui.wizardsActionSet" itemType="typeToolBarContribution" x="84" y="22"/>
 <coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -22,36 +24,71 @@
 <coolItem id="com.aptana.ui.globalActionSet" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
+<coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.dltk.tcl.ui.editor.TclEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.yaml" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.erb.html" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.ruby" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1322132309711" focus="true" label="Workspace - Ruby">
+<page aggregateWorkingSetId="Aggregate for window 1322132309711" focus="true" label="Workspace - Remote System Explorer">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" name="001_add_demi_table.rb" partName="001_add_demi_table.rb" title="001_add_demi_table.rb" tooltip="C:\Users\EmmanuelX200\Downloads\InstantRails-1.3a-win\InstantRails\rails_apps\demiApp\db\DEMIDVLP\001_add_demi_table.rb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/Users/EmmanuelX200/Downloads/InstantRails-1.3a-win/InstantRails/rails_apps/demiApp/db/DEMIDVLP/001_add_demi_table.rb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="234" selectionTopPixel="0"/>
-</editor>
 </editors>
 <views>
-<view id="org.eclipse.ui.views.ProgressView" partName="Progress">
+<view id="org.eclipse.dltk.ruby.ui.Projects" partName="Ruby Projects">
+<viewState isWindowWorkingSet="false" org.eclipse.dltk.ui.browsing.projects.to.editor="0" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false"/>
+</viewState>
+</view>
+<view id="org.eclipse.rse.ui.view.scratchpad.SystemScratchpadViewPart" partName="Remote Scratchpad"/>
+<view id="org.eclipse.rse.ui.view.systemView" partName="Remote Systems">
+<viewState horizontalPosition="0" linkWithEditor="f" release="2.0.0" showFilterPools="f" verticalPosition="0">
+<expanded>
+<element path="Conn///EmmanuelX200.Local"/>
+</expanded>
+<selection>
+<element path="Conn///EmmanuelX200.Local"/>
+</selection>
+</viewState>
+</view>
+<view id="fr.obeo.dsl.viewpoint.ui.tools.views.sessionview" partName="Model Content">
 <viewState/>
 </view>
-<view id="org.eclipse.dltk.testing.ResultView" partName="Script Unit Test"/>
+<view id="org.eclipse.dltk.testing.ResultView" partName="Script Unit Test">
+<viewState failuresOnly="false" layout="1" orientation="2" ratio="500" scroll="false"/>
+</view>
+<view id="org.eclipse.rse.ui.view.systemTableView" partName="Remote System Details">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
+<view id="org.eclipse.rse.ui.view.teamView" partName="Team">
+<viewState horizontalPosition="0" release="2.0.0" verticalPosition="0">
+<expanded>
+<element path="Profile///EmmanuelX200"/>
+<element path="EmmanuelX200.Connections///EmmanuelX200///conns"/>
+<element path="EmmanuelX200.Filter pools///EmmanuelX200///pools"/>
+<element path="EmmanuelX200.Filter pools.Local Files (Local)///EmmanuelX200///pools///null"/>
+<element path="Filter pool///EmmanuelX200///pools///null///EmmanuelX200:local.files"/>
+<element path="File filter///EmmanuelX200///pools///null///EmmanuelX200:local.files///Drives"/>
+</expanded>
+<selection>
+<element path="=Filter string///EmmanuelX200///pools///null///EmmanuelX200:local.files///Drives///*"/>
+</selection>
+</viewState>
+</view>
+<view id="fr.obeo.dsl.viewpoint.ui.tools.views.interpreterview" partName="Model requests interpreter"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
@@ -67,7 +104,7 @@
 </view>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
 <view id="org.eclipse.dltk.ui.ScriptExplorer" partName="Script Explorer">
-<viewState group_libraries="1" isWindowWorkingSet="false" layout="1" linkWithEditor="0" rootMode="1" workingSetName="">
+<viewState group_libraries="1" isWindowWorkingSet="false" layout="1" linkWithEditor="1" rootMode="1" workingSetName="">
 <customFilters userDefinedPatternsEnabled="false">
 <xmlDefinedFilters>
 <child filterId="org.eclipse.dltk.ui.ScriptExplorer.SyntheticMembersFilter" isEnabled="true"/>
@@ -91,7 +128,9 @@
 </customFilters>
 </viewState>
 </view>
-<view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
 <view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
@@ -103,12 +142,30 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console"/>
+<view id="org.eclipse.dltk.ruby.ui.extbrowsing" partName="Ruby Classes/Modules">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
-<view id="org.eclipse.dltk.ruby.ui.RubyDocumentationView" partName="Ruby Documentation"/>
+<view id="org.eclipse.dltk.ruby.ui.Members" partName="Ruby Members">
+<viewState org.eclipse.dltk.ui.browsing.member.to.editor="0">
+<customFilters userDefinedPatternsEnabled="false"/>
+</viewState>
+</view>
+<view id="com.aptana.terminal.views.terminal:demiApp script/rails server" partName="demiApp script/rails server">
+<viewState>
+<title>demiApp script/rails server</title>
+<workingDirectory>C:\Users\EmmanuelX200\Downloads\InstantRails-1.3a-win\InstantRails\rails_apps\demiApp\demiApp</workingDirectory>
+</viewState>
+</view>
+<view id="org.eclipse.dltk.ruby.ui.RubyDocumentationView" partName="Ruby Documentation">
+<viewState/>
+</view>
 <view id="org.eclipse.wst.server.ui.ServersView" partName="Servers"/>
 </views>
-<perspectives activePart="org.eclipse.dltk.ruby.ui.editor.RubyEditor" activePerspective="org.eclipse.dltk.ruby.ui.RubyPerspective">
+<perspectives activePart="org.eclipse.ui.views.PropertySheet" activePerspective="org.eclipse.rse.ui.view.SystemPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -238,13 +295,13 @@
 <alwaysOnActionSet id="fr.obeo.oo15oo.oo19oo.oo221oo.oo63oo"/>
 <alwaysOnActionSet id="org.eclipse.dltk.tcl.ui.debug.consoleActionSet"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="com.aptana.browser.actionSet"/>
+<alwaysOnActionSet id="com.aptana.ruby.debug.ui.RubyDebugActionSet"/>
 <alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
 <alwaysOnActionSet id="org.eclipse.dltk.ruby.ui.RubyActionSet"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
 <alwaysOnActionSet id="org.eclipse.dltk.ruby.debug.ui.ScriptDebugActionSet"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
-<alwaysOnActionSet id="com.aptana.browser.actionSet"/>
-<alwaysOnActionSet id="com.aptana.ruby.debug.ui.RubyDebugActionSet"/>
 <show_view_action id="org.eclipse.ui.views.ContentOutline"/>
 <show_view_action id="org.eclipse.ui.views.ProblemView"/>
 <show_view_action id="org.eclipse.dltk.ui.ScriptExplorer"/>
@@ -275,7 +332,7 @@
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="org.eclipse.dltk.ruby.ui.RubyDocumentationView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="org.eclipse.ui.views.ProgressView"/>
+<view id="com.aptana.terminal.views.terminal:demiApp script/rails server"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
 <layout>
@@ -300,15 +357,16 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.19972067" ratioLeft="286" ratioRight="1146" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.7493369" ratioLeft="565" ratioRight="189" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ProgressView" appearance="2" expanded="2">
+<info folder="true" part="bottom" ratio="0.5099867" ratioLeft="383" ratioRight="368" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.aptana.terminal.views.terminal:demiApp script/rails server" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.dltk.ruby.ui.RubyDocumentationView" label="Ruby Documentation"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<page content="org.eclipse.ui.views.ProgressView" label="Progress"/>
+<page content="com.aptana.terminal.views.terminal:demiApp script/rails server" label="demiApp script/rails server"/>
 <page content="org.eclipse.dltk.callhierarchy.view" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
@@ -318,7 +376,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@924567" ratio="0.7495637" ratioLeft="859" ratioRight="287" relationship="2" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@9bc4be" ratio="0.7495637" ratioLeft="859" ratioRight="287" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -329,16 +387,394 @@
 </mainWindow>
 </layout>
 </perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.rse.internal.ui.view.SystemPerspectiveLayout" id="org.eclipse.rse.ui.view.SystemPerspective" label="Remote System Explorer"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="fr.obeo.oo15oo.oo19oo.oo221oo.oo63oo"/>
+<alwaysOnActionSet id="org.eclipse.dltk.tcl.ui.debug.consoleActionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="com.aptana.browser.actionSet"/>
+<alwaysOnActionSet id="com.aptana.ruby.debug.ui.RubyDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.rse.ui.view.systemView"/>
+<show_view_action id="org.eclipse.rse.ui.view.systemTableView"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<perspective_action id="org.eclipse.rse.ui.view.SystemPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.rse.ui.view.systemView"/>
+<view id="org.eclipse.rse.ui.view.teamView"/>
+<view id="org.eclipse.rse.ui.view.systemTableView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.rse.ui.view.scratchpad.SystemScratchpadViewPart"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.rse.ui.view.NavFolder">
+<folder activePageID="org.eclipse.rse.ui.view.systemView" appearance="2" expanded="2">
+<page content="org.eclipse.rse.ui.view.systemView" label="Remote Systems"/>
+<page content="org.eclipse.rse.ui.view.teamView" label="Team"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1074" ratioRight="358" relationship="2" relative="org.eclipse.rse.ui.view.NavFolder">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="358" ratioRight="1074" relationship="2" relative="org.eclipse.rse.ui.view.NavFolder"/>
+<info folder="true" part="org.eclipse.rse.ui.view.MiscFolder" ratio="0.5994695" ratioLeft="452" ratioRight="302" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.rse.ui.view.systemTableView" appearance="2" expanded="2">
+<page content="org.eclipse.rse.ui.view.systemTableView" label="Remote System Details"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.rse.ui.view.OutlineFolder" ratio="0.7998138" ratioLeft="859" ratioRight="215" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.rse.ui.view.PropertiesFolder" ratio="0.45406124" ratioLeft="341" ratioRight="410" relationship="4" relative="org.eclipse.rse.ui.view.NavFolder">
+<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.rse.ui.view.scratchpad.SystemScratchpadViewPart" label="Remote Scratchpad"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="fr.obeo.oo1932oo.viewpoint.oo221oo.oo19oo.oo5606oo.oo1732oo.Oo13604oo" id="fr.obeo.dsl.viewpoint.ui.tools.perspective.design" label="Design"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="fr.obeo.oo15oo.oo19oo.oo221oo.oo63oo"/>
+<alwaysOnActionSet id="org.eclipse.dltk.tcl.ui.debug.consoleActionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="com.aptana.browser.actionSet"/>
+<alwaysOnActionSet id="com.aptana.ruby.debug.ui.RubyDebugActionSet"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="fr.obeo.dsl.viewpoint.ui.tools.views.sessionview"/>
+<show_view_action id="fr.obeo.dsl.viewpoint.ui.tools.views.interpreterview"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="fr.obeo.mda.ecore.extension.metamodel.extension.description.presentation.DescriptionModelWizardID"/>
+<new_wizard_action id="fr.obeo.dsl.viewpoint.ui.session.creation"/>
+<new_wizard_action id="fr.obeo.oo1932oo.viewpoint.oo221oo.oo19oo.oo5606oo.oo305oo.Oo14984oo"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="fr.obeo.dsl.viewpoint.ui.tools.views.sessionview"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="fr.obeo.dsl.viewpoint.ui.tools.views.interpreterview"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@17052e">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1074" ratioRight="358" relationship="2" relative="org.eclipse.ui.internal.ViewStack@17052e">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="358" ratioRight="1074" relationship="2" relative="org.eclipse.ui.internal.ViewStack@17052e"/>
+<info folder="true" part="bottom" ratio="0.64986736" ratioLeft="490" ratioRight="264" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="fr.obeo.dsl.viewpoint.ui.tools.views.interpreterview" label="Model requests interpreter"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1553816" ratio="0.58455396" ratioLeft="439" ratioRight="312" relationship="4" relative="org.eclipse.ui.internal.ViewStack@17052e">
+<folder activePageID="fr.obeo.dsl.viewpoint.ui.tools.views.sessionview" appearance="2" expanded="2">
+<page content="fr.obeo.dsl.viewpoint.ui.tools.views.sessionview" label="Model Content"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1d53851" ratio="0.54966885" ratioLeft="332" ratioRight="272" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1553816">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.wst.web.ui.internal.WebDevelopmentPerspective" id="org.eclipse.wst.web.ui.webDevPerspective" label="Web"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="fr.obeo.oo15oo.oo19oo.oo221oo.oo63oo"/>
+<alwaysOnActionSet id="org.eclipse.dltk.tcl.ui.debug.consoleActionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="com.aptana.browser.actionSet"/>
+<alwaysOnActionSet id="com.aptana.ruby.debug.ui.RubyDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.wst.web.ui.wizardsActionSet"/>
+<alwaysOnActionSet id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.wst.ws.explorer.explorer"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.wst.server.ui.ServersView"/>
+<new_wizard_action id="org.eclipse.jst.jsp.ui.internal.wizard.NewJSPWizard"/>
+<new_wizard_action id="org.eclipse.wst.web.ui.internal.wizards.SimpleWebProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard"/>
+<new_wizard_action id="org.eclipse.wst.css.ui.internal.wizard.NewCSSWizard"/>
+<new_wizard_action id="org.eclipse.wst.html.ui.internal.wizard.NewHTMLWizard"/>
+<new_wizard_action id="org.eclipse.wst.jsdt.ui.NewJSWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<perspective_action id="org.eclipse.jst.j2ee.J2EEPerspective"/>
+<perspective_action id="org.eclipse.wst.jsdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.wst.server.ui.ServersView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1074" ratioRight="358" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="358" ratioRight="1074" relationship="2" relative="topLeft"/>
+<info folder="true" part="topRight" ratio="0.7998138" ratioLeft="859" ratioRight="215" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="Snippets"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottom" ratio="0.69893897" ratioLeft="527" ratioRight="227" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.dltk.ruby.internal.ui.RubyBrowsingPerspectiveFactory" id="org.eclipse.dltk.ruby.ui.RubyBrowsingPerspective" label="Ruby Browsing"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="fr.obeo.oo15oo.oo19oo.oo221oo.oo63oo"/>
+<alwaysOnActionSet id="org.eclipse.dltk.tcl.ui.debug.consoleActionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="com.aptana.browser.actionSet"/>
+<alwaysOnActionSet id="com.aptana.ruby.debug.ui.RubyDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.dltk.ruby.ui.RubyActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.dltk.ruby.ui.Projects"/>
+<show_view_action id="org.eclipse.dltk.ruby.ui.extbrowsing"/>
+<show_view_action id="org.eclipse.dltk.ruby.ui.Members"/>
+<show_view_action id="org.eclipse.dltk.ui.ScriptExplorer"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.dltk.ruby.ui.RubyDocumentationView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.dltk.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.dltk.callhierarchy.view"/>
+<new_wizard_action id="org.eclipse.dltk.ruby.wizards.newproject"/>
+<new_wizard_action id="org.eclipse.dltk.ruby.wizards.newclass"/>
+<new_wizard_action id="org.eclipse.dltk.ruby.wizards.newmodule"/>
+<new_wizard_action id="org.eclipse.dltk.ruby.wizards.newfile"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<perspective_action id="org.eclipse.dltk.ruby.ui.RubyPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.ui.resourcePerspective"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.dltk.ruby.ui.Projects"/>
+<view id="org.eclipse.dltk.ruby.ui.extbrowsing"/>
+<view id="org.eclipse.dltk.ruby.ui.Members"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@479d32">
+<folder activePageID="org.eclipse.dltk.ruby.ui.Projects" appearance="2" expanded="2">
+<page content="org.eclipse.dltk.ruby.ui.Projects" label="Ruby Projects"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1074" ratioRight="358" relationship="2" relative="org.eclipse.ui.internal.ViewStack@479d32">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="left" ratio="0.24933687" ratioLeft="188" ratioRight="566" relationship="4" relative="org.eclipse.ui.internal.ViewStack@479d32">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.dltk.ui.ScriptExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.dltk.testing.ResultView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="358" ratioRight="1074" relationship="2" relative="left"/>
+<info folder="true" part="right" ratio="0.7495344" ratioLeft="805" ratioRight="269" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottom" ratio="0.7491166" ratioLeft="424" ratioRight="142" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1a142e3" ratio="0.25" ratioLeft="358" ratioRight="1074" relationship="2" relative="org.eclipse.ui.internal.ViewStack@479d32">
+<folder activePageID="org.eclipse.dltk.ruby.ui.extbrowsing" appearance="2" expanded="2">
+<page content="org.eclipse.dltk.ruby.ui.extbrowsing" label="Ruby Classes/Modules"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@2e782e" ratio="0.7495344" ratioLeft="805" ratioRight="269" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1a142e3">
+<folder activePageID="org.eclipse.dltk.ruby.ui.Members" appearance="2" expanded="2">
+<page content="org.eclipse.dltk.ruby.ui.Members" label="Ruby Members"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" uri="file:/C:/Users/EmmanuelX200/Downloads/InstantRails-1.3a-win/InstantRails/rails_apps/demiApp/db/DEMIDVLP/001_add_demi_table.rb"/>
-</editors>
-<item active="true" historyLabel="001_add_demi_table.rb" index="0">
-<position info="not_deleted" x="234" y="0"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -356,8 +792,26 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.dltk.tcl.ui.editor.TclEditor" name="remote.tcl" tooltip="C:\Program Files\Git\share\git-gui\lib\remote.tcl">
+<persistable uri="file:/C:/Program%20Files/Git/share/git-gui/lib/remote.tcl"/>
+</file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" name="001_add_demi_table.rb" tooltip="C:\Users\EmmanuelX200\Downloads\InstantRails-1.3a-win\InstantRails\rails_apps\demiApp\db\DEMIDVLP\001_add_demi_table.rb">
 <persistable uri="file:/C:/Users/EmmanuelX200/Downloads/InstantRails-1.3a-win/InstantRails/rails_apps/demiApp/db/DEMIDVLP/001_add_demi_table.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.yaml" name="database.yml" tooltip="C:\Users\EmmanuelX200\Downloads\InstantRails-1.3a-win\InstantRails\rails_apps\demiApp\config\database.yml">
+<persistable uri="file:/C:/Users/EmmanuelX200/Downloads/InstantRails-1.3a-win/InstantRails/rails_apps/demiApp/config/database.yml"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" name="member.rb" tooltip="C:\Users\EmmanuelX200\Downloads\InstantRails-1.3a-win\InstantRails\rails_apps\demiApp\app\models\member.rb">
+<persistable uri="file:/C:/Users/EmmanuelX200/Downloads/InstantRails-1.3a-win/InstantRails/rails_apps/demiApp/app/models/member.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="index.rhtml" tooltip="C:\Users\EmmanuelX200\Downloads\InstantRails-1.3a-win\InstantRails\rails_apps\demiApp\app\views\members\index.rhtml">
+<persistable uri="file:/C:/Users/EmmanuelX200/Downloads/InstantRails-1.3a-win/InstantRails/rails_apps/demiApp/app/views/members/index.rhtml"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" name="members_controller.rb" tooltip="C:\Users\EmmanuelX200\Downloads\InstantRails-1.3a-win\InstantRails\rails_apps\demiApp\app\controllers\members_controller.rb">
+<persistable uri="file:/C:/Users/EmmanuelX200/Downloads/InstantRails-1.3a-win/InstantRails/rails_apps/demiApp/app/controllers/members_controller.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="new_file.cgi" tooltip="C:\Users\EmmanuelX200\Aptana Rubles\new_file.cgi">
+<persistable uri="file:/C:/Users/EmmanuelX200/Aptana%20Rubles/new_file.cgi"/>
 </file>
 </mruList>
 </workbench>
