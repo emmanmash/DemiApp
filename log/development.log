@@ -629,3 +629,193 @@ NameError (uninitialized constant StSupervisor):
 Rendering C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
   [4;36;1mStStudent Columns (0.000000)[0m   [0;1mMysql::Error: #42S02Table 'demidvlp.st_students' doesn't exist: SHOW FIELDS FROM st_students[0m
   [4;36;1mStStudent Columns (0.000000)[0m   [0;1mMysql::Error: #42S02Table 'demidvlp.st_students' doesn't exist: SHOW FIELDS FROM st_students[0m
+
+
+Processing RoleController#show (for 127.0.0.1 at 2011-11-25 18:07:32) [GET]
+  Session ID: 1f515f20dd04f8a581bb86dec9ea62a2
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"role"}
+  [4;35;1mRole Load (1.519000)[0m   [0mSELECT * FROM roles WHERE (roles.id = '1') LIMIT 1[0m
+
+
+NameError (C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:100:in `const_missing': uninitialized constant User):
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activerecord-1.14.2/lib/active_record/base.rb:1246:in `compute_type'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:131:in `const_missing'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:133:in `const_missing'
+    (eval):1:in `compute_type'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activerecord-1.14.2/lib/active_record/reflection.rb:112:in `klass'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activerecord-1.14.2/lib/active_record/associations/has_many_association.rb:174:in `construct_sql'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activerecord-1.14.2/lib/active_record/associations/has_many_association.rb:6:in `initialize'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activerecord-1.14.2/lib/active_record/associations.rb:876:in `users'
+    /app/controllers/role_controller.rb:17:in `show'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/base.rb:910:in `perform_action_without_filters'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/filters.rb:368:in `perform_action_without_benchmark'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/benchmarking.rb:69:in `perform_action_without_rescue'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/benchmarking.rb:69:in `perform_action_without_rescue'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/rescue.rb:82:in `perform_action'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/base.rb:381:in `process_without_filters'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/filters.rb:377:in `process_without_session_management_support'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/session_management.rb:117:in `process'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/dispatcher.rb:38:in `dispatch'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/webrick_server.rb:115:in `handle_dispatch'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/webrick_server.rb:81:in `service'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/webrick_server.rb:67:in `dispatch'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/commands/servers/webrick.rb:59
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:21:in `require'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:147:in `require'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/commands/server.rb:30
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:21:in `require'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:147:in `require'
+    script/server:3
+
+
+Rendering C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing Base#index (for 127.0.0.1 at 2011-11-26 11:17:37) [GET]
+  Session ID: 1f515f20dd04f8a581bb86dec9ea62a2
+  Parameters: {}
+
+
+ActionController::RoutingError (Recognition failed for "/layouts"):
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/routing.rb:488:in `recognition_failed'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/routing.rb:478:in `recognize!'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/dispatcher.rb:38:in `dispatch'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/webrick_server.rb:115:in `handle_dispatch'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/webrick_server.rb:81:in `service'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/webrick_server.rb:67:in `dispatch'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/commands/servers/webrick.rb:59
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:21:in `require'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:147:in `require'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/commands/server.rb:30
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:21:in `require'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:147:in `require'
+    script/server:3
+
+
+Rendering C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing RoleController#index (for 127.0.0.1 at 2011-11-26 11:18:03) [GET]
+  Session ID: 1f515f20dd04f8a581bb86dec9ea62a2
+  Parameters: {"action"=>"index", "controller"=>"role"}
+  [4;36;1mRole Columns (0.147000)[0m   [0;1mSHOW FIELDS FROM roles[0m
+  [4;35;1mSQL (0.032000)[0m   [0mSELECT count(*) AS count_all FROM roles [0m
+  [4;36;1mRole Load (0.001000)[0m   [0;1mSELECT * FROM roles LIMIT 0, 10[0m
+Rendering actionlistlayoutfalse within layouts/role
+Rendering role/list
+Completed in 0.41000 (2 reqs/sec) | Rendering: 0.00600 (1%) | DB: 0.18000 (43%) | 200 OK [http://localhost/role]
+
+
+Processing RoleController#new (for 127.0.0.1 at 2011-11-26 11:19:19) [GET]
+  Session ID: 1f515f20dd04f8a581bb86dec9ea62a2
+  Parameters: {"action"=>"new", "controller"=>"role"}
+  [4;35;1mRole Columns (0.001000)[0m   [0mSHOW FIELDS FROM roles[0m
+Rendering  within layouts/role
+Rendering role/new
+Rendered role/_form (0.00200)
+Completed in 0.01000 (100 reqs/sec) | Rendering: 0.00600 (59%) | DB: 0.00100 (10%) | 200 OK [http://localhost/role/new]
+
+
+Processing Base#index (for 127.0.0.1 at 2011-11-26 17:46:50) [GET]
+  Session ID: 1f515f20dd04f8a581bb86dec9ea62a2
+  Parameters: {}
+
+
+SyntaxError (./script/../config/../app/controllers/st_supervisors_controller.rb:9: parse error, unexpected tIDENTIFIER, expecting ')'
+	@st_supervisors  = st_supervisors .new(params[:st_supervisors]s)
+	                                                               ^):
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:140:in `load'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:140:in `load'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:56:in `require_or_load'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:30:in `depend_on'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:85:in `require_dependency'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:98:in `const_missing'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:131:in `const_missing'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/routing.rb:237:in `traverse_to_controller'
+    generated/routing/recognition.rb:3:in `eval'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/routing.rb:237:in `traverse_to_controller'
+    generated/routing/recognition.rb:3:in `recognize_path'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/routing.rb:477:in `recognize!'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/dispatcher.rb:38:in `dispatch'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/webrick_server.rb:115:in `handle_dispatch'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/webrick_server.rb:81:in `service'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/webrick_server.rb:67:in `dispatch'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/commands/servers/webrick.rb:59
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:21:in `require'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:147:in `require'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/commands/server.rb:30
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:21:in `require'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:147:in `require'
+    script/server:3
+
+
+Rendering C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing Base#index (for 127.0.0.1 at 2011-11-26 18:44:32) [GET]
+  Session ID: 1f515f20dd04f8a581bb86dec9ea62a2
+  Parameters: {}
+
+
+SyntaxError (./script/../config/../app/controllers/st_supervisors_controller.rb:9: parse error, unexpected tIDENTIFIER, expecting ')'
+	@st_supervisors  = st_supervisors .new(params[:st_supervisors]s)
+	                                                               ^):
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:140:in `load'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:140:in `load'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:56:in `require_or_load'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:30:in `depend_on'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:85:in `require_dependency'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:98:in `const_missing'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:131:in `const_missing'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/routing.rb:237:in `traverse_to_controller'
+    generated/routing/recognition.rb:3:in `eval'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/routing.rb:237:in `traverse_to_controller'
+    generated/routing/recognition.rb:3:in `recognize_path'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/routing.rb:477:in `recognize!'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/dispatcher.rb:38:in `dispatch'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/webrick_server.rb:115:in `handle_dispatch'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/webrick_server.rb:81:in `service'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/webrick_server.rb:67:in `dispatch'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/commands/servers/webrick.rb:59
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:21:in `require'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:147:in `require'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/commands/server.rb:30
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:21:in `require'
+    C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/activesupport-1.3.1/lib/active_support/dependencies.rb:147:in `require'
+    script/server:3
+
+
+Rendering C:/Users/EMMANU~1/DOWNLO~1/INSTAN~1.3A-/INSTAN~1/ruby/lib/ruby/gems/1.8/gems/actionpack-1.12.1/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
